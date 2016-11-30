@@ -17,7 +17,7 @@ app.config.update(dict(
 app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
 
-# --- ページ設定 ---
+# --- ページ関係 ---
 @app.route('/')
 def show_entries():
     db = get_db()
